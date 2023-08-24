@@ -2,7 +2,7 @@ import { Controller, Get, Param, Post, Body, Delete, Put,HttpCode, Res, HttpStat
 import { TracksService } from './tracks.service';
 import { Track } from './interfaceTracks';
 import { response } from 'express';
-import { async } from 'rxjs';
+
 
 @Controller('tracks/')
 export class TracksController {
@@ -22,23 +22,13 @@ async getTracksById(@Res() response, @Param('id') id:number): Promise<any>{//@Pa
           }// lanza un código de error con un mensaje como respuesta
 }
 @Post()
-@HttpCode(201)
-async createTracks(@Res() response, @Body() body) : Promise<any>{//@Body hace referencia al cuerpo de la solic.  body: JSON.stringify(newTrack),
-const responseFromService = await this.trackService.createTracks(body);
-if (Object.keys(responseFromService).length){
-  return response.status(HttpStatus.CREATED).json(responseFromService);
-} else {
-  return response.status(HttpStatus.NOT_FOUND).json({message: 'Error al crear la nueva pista. Verifique sus campos'});
-}
+createTracks (@Body() body) : Promise<any>{//@Body hace referencia al cuerpo de la solic.  body: JSON.stringify(newTrack),
+return this.trackService.createTracks(body);
 } 
 
 @Delete('/:id')
-@HttpCode(204)
-async deleteTracks(@Res() response, @Param('id') id:number): Promise<any>{
-  const responseFromService = await this.trackService.deleteTrackById(id);
-  if (Object.keys(responseFromService).length) {
-    return response.status(HttpStatus.NO_CONTENT)
-  }
+deleteTracksById(@Param('id') id:number): Promise<any>{
+ return this.trackService.deleteTrackById(id);
 }
 @Put('/:id')
 @HttpCode(204)

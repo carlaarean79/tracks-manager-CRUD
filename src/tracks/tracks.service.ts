@@ -44,18 +44,19 @@ export class TracksService {
             },
             body: JSON.stringify(newTrack),
         });
-        if (res.status === 201) {
+        /* if (res.status === 201) {
             // La respuesta del servidor indica que se creó correctamente (código 201).
             const createdTrack = await res.json();
             return createdTrack;
         } else {
             // Manejar otros casos de respuesta (por ejemplo, errores) según sea necesario.
             throw new Error(`Error al crear la pista. Código de estado: ${res.status}`);
-        } 
+        }  */
     }
     async deleteTrackById(id: number) {
         const res = await fetch(Base_data + id, {
           method: 'DELETE',
+          
         });
         const parsed = await res.json();
         return parsed;

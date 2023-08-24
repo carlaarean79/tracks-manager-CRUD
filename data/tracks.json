@@ -13,24 +13,6 @@
       "artist": "Artista 2"
     },
     {
-      "id": 4,
-      "title": "Canción 4",
-      "duration": "5:20",
-      "artist": "Artista 4"
-    },
-    {
-      "id": 5,
-      "title": "Canción 5",
-      "duration": "3:30",
-      "artist": "Artista 5"
-    },
-    {
-      "id": 6,
-      "title": "Canción 6",
-      "duration": "4:05",
-      "artist": "Artista 6"
-    },
-    {
       "id": 7,
       "title": "Canción 7",
       "duration": "3:15",
@@ -115,83 +97,32 @@
       "artist": "Artista 20"
     },
     {
-      "id": 39,
-      "title": "holaa",
-      "duration": 7,
-      "artist": "adios"
-    },
-    {
-      "id": 41
-    },
-    {
-      "id": 42
-    },
-    {
-      "id": 43
-    },
-    {
-      "id": 44,
-      "title": "Sol y Mar",
-      "duration": 5.55,
-      "artist": "CArla"
-    },
-    {
-      "id": 45,
-      "title": "Todas y todos",
-      "duration": 1212,
-      "artist": "CArla"
-    },
-    {
-      "id": 46,
-      "title": "Me voy",
-      "duration": 11.11,
-      "artist": "CArla"
-    },
-    {
-      "id": 47,
-      "title": "Me voy",
-      "duration": 11.11,
-      "artist": "CArla"
-    },
-    {
-      "id": 48,
-      "title": "Me voy",
-      "duration": 11.11,
-      "artist": "CArla"
-    },
-    {
-      "id": 49,
-      "title": "Me voy",
-      "duration": 11.11,
-      "artist": "CArla"
-    },
-    {
-      "id": 50,
-      "title": "Me voy",
-      "duration": 11.11,
-      "artist": "CArla"
-    },
-    {
-      "id": 51,
-      "title": "Me voy",
-      "duration": 11.11,
-      "artist": "CArla"
-    },
-    {
-      "id": 52,
-      "title": "Me voy",
-      "duration": 11.11,
-      "artist": "CArla"
-    },
-    {
-      "id": 53,
-      "title": "Me voy",
-      "duration": 11.11,
-      "artist": "CArla"
-    },
-    {
       "id": 54,
       "title": "Me voy",
+      "duration": 11.11,
+      "artist": "CArla"
+    },
+    {
+      "id": 55,
+      "title": "Me voy",
+      "duration": 11.11,
+      "artist": "CArla"
+    },
+    {
+      "id": 56,
+      "title": "Me voy volviendo loca",
+      "duration": 11.11,
+      "artist": "CArla"
+    },
+    {
+      "id": 57,
+      "title": "nest me trastorna",
+      "duration": 11.11,
+      "artist": "CArla"
+    },
+    {
+      "id": 58,
+      "title": "por qué ahora anda?",
       "duration": 11.11,
       "artist": "CArla"
     }
